@@ -28,11 +28,11 @@
     align-items:center;
 }
 
-#likeCount{
+.likeCount{
     margin-right: 3px;
 }
 
-#likeButton{
+.likeButton{
     border: none;
     margin-left: 10px;
     padding: 10px 25px;
@@ -40,13 +40,4 @@
     font-weight: bold;
     font-size: larger;
     background-color: #e9d900;
-}
-
-.postDesc{
-    display:flex;
-    align-items: center;
-}
-
-.postDesc > a{
-    margin-left: 3px;
 }
