@@ -2,20 +2,58 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.topBar{
+    background-color:rgb(48, 48, 48);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    position:relative;
+    left: 9.66%;
+    width: 80.68%;
+    padding: 10px 0px;
+    
+}
+
 .pageStructure{
     width: 80%;
     left: 10%;
+    display: flex;
     position: absolute;
+}
+
+.profileCard{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    top: 80px;
+    width: 250px;
+    height: 250px;
+    padding: 30px 0px 20px 0px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.profilePic{
+    border-radius: 50%;
+}
+
+.yourFeed{
+    width: 74%;
 }
 
 .postCard{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     padding: 0px 20px;
     border-radius: 5px;
     border: 2px solid black;
-    background-color: lightgrey;
+    background-color: rgb(231, 231, 231);
+    margin-bottom: 20px;
 }
 
 .postInfo{
